@@ -6,7 +6,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error
 import random
 
-
 class SmartBin:
     def __init__(self, bin_id, location):
         self.bin_id = bin_id
